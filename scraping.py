@@ -31,3 +31,4 @@ for py_job in python_jobs:
     link = py_job.find('a')['href']
     print(py_job.text.strip())
     print(f'Acesse Aqui: {link}\n ')
+    
